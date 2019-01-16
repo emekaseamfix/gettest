@@ -42,6 +42,9 @@ public class Appugochukwuemeka {
   
     public static void main(String[] args) {
      
+        //Write a method that returns the right FizzBuzz value depending on the input number
+        
+        
                 Scanner input = new Scanner(System.in);
 		System.out.println("Enter a number");
 
@@ -51,7 +54,31 @@ public class Appugochukwuemeka {
 		String fizzBuzzValue = thisApp.getFizzBuzzValue(number);
 		
 		System.out.println("The Fizzbuzzvalue of " + number + " is " + fizzBuzzValue);
-		
+	
+        
+        /*
+         Scanner input = new Scanner(System.in);
+		System.out.println("Enter a number");
+                int number = input.nextInt();
+                
+                
+                
+                for(int i=0; i<number; i++)
+                {
+                    
+                    int in;
+                    System.out.println("enter a number");
+                    in=input.nextInt();
+                    
+                    Appugochukwuemeka thisApp = new Appugochukwuemeka();
+		String fizzBuzzValue = thisApp.getFizzBuzzValue(number);
+                System.out.println("The Fizzbuzzvalue of " + number + " is " + fizzBuzzValue);
+                    
+                    
+                    
+                }
+        */
+        
 		
 
    
